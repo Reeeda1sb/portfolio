@@ -106,7 +106,9 @@ nav.sticky .menu a:hover {
 nav.sticky .media-icons a {
   color: #FFF;
 }
-
+nav.sticky .media-icons a:hover{
+  color: black;
+}
 /* Side Navigation Menu Button CSS */
 nav .menu-btn,
 .navbar .menu .cancel-btn {
