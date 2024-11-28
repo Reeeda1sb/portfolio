@@ -12,7 +12,10 @@ window.onscroll = function () {
     scrollBtn.style.display = "none";
   }
 };
-
+function openPDFs() {
+  // Open the first PDF
+  window.open('CV.pdf', '_blank');
+}
 // Side Navigation Menu
 let body = document.querySelector("body");
 let navBar = document.querySelector(".navbar");
